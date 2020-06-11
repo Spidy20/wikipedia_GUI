@@ -3,7 +3,6 @@ import PIL.Image
 from tkinter import *
 import tkinter as tk
 import wikipedia
-import subprocess
 import clipboard
 
 windo = Tk()
@@ -28,7 +27,6 @@ def clear():
     T.destroy()
     FA.destroy()
     FA1.destroy()
-
 
 def search():
     try:
